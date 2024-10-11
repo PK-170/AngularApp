@@ -9,14 +9,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title:string = '';
-  name:string;
-  age:number = 23;
-  age2:number = 23;
+  isTest:boolean = false;
 
 constructor() {
-  this.title = 'first constructor';
-  this.name = "second row"
+  
 }
 
 
