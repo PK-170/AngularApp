@@ -9,5 +9,14 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'frontend';
+  title:string = '';
+  name:string;
+  age:number = 23;
+
+constructor() {
+  this.title = 'first constructor';
+  this.name = "second row"
+}
+
+
 }
