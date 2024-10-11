@@ -12,6 +12,7 @@ export class AppComponent {
   title:string = '';
   name:string;
   age:number = 23;
+  age2:number = 23;
 
 constructor() {
   this.title = 'first constructor';
