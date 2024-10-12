@@ -6,11 +6,9 @@
 .home{
     color: blue;
     font-size: 20px;
-    
- 
-  position: absolute;
-  top: 15%;
-  left: 40%;
+    position: absolute;
+    top: 15%;
+    left: 40%;
     }
 
  .input{
@@ -22,11 +20,9 @@
  .home1{
     color: blueviolet;
     font-size: 20px;
-    
- 
-  position: absolute;
-  top: 28%;
-  left: 40%;
+    position: absolute;
+    top: 28%;
+    left: 40%;
     }
 
  .input1{
