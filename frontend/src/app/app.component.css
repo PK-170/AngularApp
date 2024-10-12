@@ -1,48 +1,15 @@
-.sec{
-    background-color: red;
-}
-
-.home{
-    color: blue;
-    font-size: 20px;
-    position: absolute;
-    top: 15%;
-    left: 40%;
-    }
-
- .input{
-    position: absolute;
-    top: 20%;
-    left: 40%;
- }   
-
- .home1{
-    color: blueviolet;
-    font-size: 20px;
-    position: absolute;
-    top: 28%;
-    left: 40%;
-    }
-
- .input1{
-    position: absolute;
-    top: 33%;
-    left: 40%;
- }  
-
- .input2{
-    position: absolute;
-    top: 40%;
-    left: 40%;
- } 
-
- .input3{
-    position: absolute;
-    top: 40%;
-    left: 40%;
- } 
- .input4{
-    position: absolute;
-    top: 43%;
-    left: 40%;
- } 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
