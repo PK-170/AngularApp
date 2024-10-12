@@ -18,8 +18,8 @@ constructor() {
 }
 
 onClick(){
-  console.log(this.userName);
-  console.log(this.Password);
+  console.log("Username:" + this.userName);
+  console.log("Password:" + this.Password);
   
 }
 }
