@@ -11,7 +11,9 @@
     <label for="Password">Password</label>
   </div>
 
-  <div class="input1"><input type="password" required /></div>
+  <div class="input1">
+    <input type="password" [(ngModel)]="Password" required />
+  </div>
   <div class="input2">
     <input type="button" value="Submit" (click)="onClick()" />
   </div>
