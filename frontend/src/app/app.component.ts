@@ -19,5 +19,7 @@ constructor() {
 
 onClick(){
   console.log(this.userName);
+  console.log(this.Password);
+  
 }
 }
