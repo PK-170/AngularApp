@@ -10,16 +10,7 @@ import { HomeComponent } from './home/home.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  userName:string = "";
-  Password:string = "";
-
-constructor(private router:Router) {
   
-}
 
-onClick(){
-  // console.log("Username:" + this.userName);
-  // console.log("Password:" + this.Password);
-  this.router.navigateByUrl('/home-component'); 
-}
+  
 }

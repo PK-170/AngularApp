@@ -1,2 +1,23 @@
 <router-outlet> </router-outlet>
 <p>home works!</p>
+<router-outlet></router-outlet>
+<section id="new" class="sec">
+  <div class="home">
+    <label for="UserName">UserName</label>
+  </div>
+
+  <div class="input">
+    <input type="text" [(ngModel)]="userName" required />
+  </div>
+
+  <div class="home1">
+    <label for="Password">Password</label>
+  </div>
+
+  <div class="input1">
+    <input type="password" [(ngModel)]="Password" required />
+  </div>
+  <div class="input2">
+    <button (click)="onClick()">Submit</button>
+  </div>
+</section>
