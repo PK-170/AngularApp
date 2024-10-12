@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterOutlet } from '@angular/router';
-
+import { Router, RouterOutlet } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -13,13 +13,13 @@ export class AppComponent {
   userName:string = "";
   Password:string = "";
 
-constructor() {
+constructor(private router:Router) {
   
 }
 
 onClick(){
-  console.log("Username:" + this.userName);
-  console.log("Password:" + this.Password);
-  
+  // console.log("Username:" + this.userName);
+  // console.log("Password:" + this.Password);
+  this.router.navigateByUrl('/home-component'); 
 }
 }
