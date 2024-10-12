@@ -33,6 +33,17 @@
 
  .input2{
     position: absolute;
+    top: 58%;
+    left: 40%;
+ } 
+
+ .input3{
+    position: absolute;
     top: 40%;
+    left: 40%;
+ } 
+ .input4{
+    position: absolute;
+    top: 43%;
     left: 40%;
  } 
