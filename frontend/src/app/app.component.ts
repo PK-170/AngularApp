@@ -10,6 +10,7 @@ interface User{
   firstName:string;
   lastName:string;
 }
+
 @Component({
   selector: 'app-root',
   standalone: true,
