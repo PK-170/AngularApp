@@ -1,12 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { User } from '../../models/user';
 
-
-interface User{
-  name:string;
-  firstName:string;
-  lastName:string;
-}
 
 @Component({
   selector: 'app-stock-list',
