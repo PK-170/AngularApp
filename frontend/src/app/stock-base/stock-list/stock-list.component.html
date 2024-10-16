@@ -1,1 +1,23 @@
 <p>stock-list works!</p>
+<table class="table">
+  <thead class="th">
+    <th>Name</th>
+    <th>First name</th>
+    <th>Last Name</th>
+  </thead>
+  <tbody>
+    <!-- @if (data ;as contacts ) { @if (contacts.length > 0) { @for (usr of
+contacts; track $index) {
+<tr>
+  <td>{{ usr.name }}</td>
+  <td>{{ usr.firstName }}</td>
+  <td>{{ usr.lastName }}</td>
+</tr>
+} } } -->
+    <tr *ngFor="let usr of data; let i; index">
+      <td>{{ usr.name }}</td>
+      <td>{{ usr.firstName }}</td>
+      <td>{{ usr.lastName }}</td>
+    </tr>
+  </tbody>
+</table>

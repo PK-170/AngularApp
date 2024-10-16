@@ -21,24 +21,7 @@ interface User{
 })
 export class AppComponent {
 
-  data:User[] = [
-    {
-      name: 'Ming',
-      firstName:'Mingh',
-      lastName:'Young'
-    },
-    {
-      name: 'Sai',
-      firstName:'Sai',
-      lastName:'Panda'
-    },
-    {
-      name: 'Zihan',
-      firstName:'Zihan',
-      lastName:'Young'
-    }
-  ]
-  
 
-  
+
+
 }
