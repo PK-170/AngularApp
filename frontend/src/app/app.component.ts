@@ -6,11 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { StockBaseModule } from './stock-base/stock-base.module';
 
 
-interface User{
-  name:string;
-  firstName:string;
-  lastName:string;
-}
 
 @Component({
   selector: 'app-root',

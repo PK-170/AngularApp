@@ -1,6 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
+
+interface User{
+  name:string;
+  firstName:string;
+  lastName:string;
+}
+
 @Component({
   selector: 'app-stock-list',
   standalone: true,
