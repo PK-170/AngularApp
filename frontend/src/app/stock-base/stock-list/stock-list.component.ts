@@ -1,3 +1,4 @@
+import { UserServiceService } from './../../services/user-service.service';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../../models/user';
@@ -13,29 +14,13 @@ import { User } from '../../models/user';
 export class StockListComponent implements OnInit{
 
 
-  constructor() { }
+  constructor(private userService: UserServiceService) { }
 
   ngOnInit(): void {
 
   }
 
-  data:User[] = [
-    {
-      name: 'Ming',
-      firstName:'Mingh',
-      lastName:'Young'
-    },
-    {
-      name: 'Sai',
-      firstName:'Sai',
-      lastName:'Panda'
-    },
-    {
-      name: 'Zihan',
-      firstName:'Zihan',
-      lastName:'Young'
-    }
-  ]
+
 
 
 }
