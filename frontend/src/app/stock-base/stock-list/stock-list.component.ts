@@ -1,7 +1,7 @@
 import { UserServiceService } from './../../services/user-service.service';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { User } from '../../models/user';
+import { User } from '../../models/User';
 
 
 @Component({
@@ -20,7 +20,11 @@ export class StockListComponent implements OnInit{
 
   ngOnInit(): void {
 
-    this.Users = this.userService.getUsers();
+    this.userService.getUsers().subscribe((data: User[])=>{
+      console.log(data);
+      this.Users = data;
+
+    });
   }
 
 

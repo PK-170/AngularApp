@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { StockListComponent } from './stock-list/stock-list.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { UserServiceService } from '../services/user-service.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -11,7 +12,8 @@ import { UserServiceService } from '../services/user-service.service';
   imports: [
     CommonModule,
     StockListComponent,
-    StockDetailComponent
+    StockDetailComponent,
+    HttpClientModule
   ],
   exports: [
     StockListComponent,
