@@ -14,6 +14,8 @@ import { User } from '../../models/user';
 export class StockListComponent implements OnInit{
 
 
+     Users!: User[];
+
   constructor(private userService: UserServiceService) { }
 
   ngOnInit(): void {
