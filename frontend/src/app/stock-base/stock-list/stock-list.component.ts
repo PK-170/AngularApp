@@ -20,6 +20,7 @@ export class StockListComponent implements OnInit{
 
   ngOnInit(): void {
 
+    this.Users = this.userService.getUsers();
   }
 
 
