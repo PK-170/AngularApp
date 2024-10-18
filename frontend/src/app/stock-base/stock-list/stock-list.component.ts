@@ -18,13 +18,15 @@ export class StockListComponent implements OnInit{
 
   constructor(private userService: UserServiceService) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
 
-    this.userService.getUsers1().subscribe((data: User[])=>{
-      console.log(data);
-      this.Users = data;
+    // this.userService.getUsers1().subscribe((data: User[])=>{
+    //   console.log(data);
+    //   this.Users = data;
 
-    });
+    // });
+
+    this.userService.getUsers();
   }
 
 
