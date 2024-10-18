@@ -20,7 +20,7 @@ export class StockListComponent implements OnInit{
 
   ngOnInit(): void {
 
-    this.userService.getUsers().subscribe((data: User[])=>{
+    this.userService.getUsers1().subscribe((data: User[])=>{
       console.log(data);
       this.Users = data;
 
